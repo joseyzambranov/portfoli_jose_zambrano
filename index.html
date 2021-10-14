@@ -1,21 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./asset/css/style.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
     <title>Portfolio Jose Zambrano</title>
 </head>
+
 <body>
-    <section id="welcome-section">
+    <!-----------------------------------nav---------------------------------------------->
+    <nav id="navbar" class="nav">
+
+        <ul class="nav-list">
+            <li><a href="#welcome-section">About</a></li>
+            <li><a href="#projects">work</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+    </nav>
+    <!------------------------------welcome section------------------------------------->
+    <section id="welcome-section" class="welcome-section">
         <h1>Hey I am Jose Zambrano</h1>
         <p>a web developer</p>
     </section>
-    <section id="projects">
+    <!------------------------------projects section------------------------------------->
+    <section id="projects" class="project-section">
+        <h2 class="project-section-header">These are some of my projects</h2>
+
+        <div class="project-grid">
+            <a href="https://joseyzambranov.github.io/tribute_rodney_mullen/" class="project project-tile"
+                target="_blank">
+                <img class="project-img" src="./asset/img/tribute_page.jpg" alt="">
+                <p><span class="code">&lt;</span>tribute page<span class="code">&#47;&gt;</span></p>
+            </a>
+            <a href="https://joseyzambranov.github.io/technical_page/" class="project project-tile" target="_blank">
+                <img class="project-img" src="./asset/img/technical_page.jpg" alt="">
+                <p><span class="code">&lt;</span>Technical page<span class="code">&#47;&gt;</span></p>
+            </a>
+
+            
+            <a href="https://joseyzambranov.github.io/landing_freecodecamp/" class="project project-tile"
+                target="_blank">
+                <img class="project-img" src="./asset/img/landing_page.jpg" alt="">
+                <p><span class="code">&lt;</span>Landing page<span class="code">&#47;&gt;</span></p>
+            </a>
+            <a href="https://joseyzambranov.github.io/form_survey/" class="project project-tile" target="_blank">
+                <img class="project-img" src="./asset/img/form_survey.jpg" alt="">
+                <p><span class="code">&lt;</span>Form survey<span class="code">&#47;&gt;</span></p>
+            </a>
+
+            
+
+        </div>
+        <a href="https://joseyzambranov.github.io/portafoliomoderno/" class="btn btn-show-all" target="_blank">
+            Show all<i class="uil uil-angle-right-b"></i>
+        </a>
+
+
+
+
 
     </section>
-    
+    <section id="contact" class="contact-section">
+        <div class="contact-header">
+            <h2>Let's work together...</h2>
+            <p>How do you take your coffee?</p>
+
+        </div>
+        <div class="contact-link">
+            <a href="https://twitter.com/SUMERMULLEN" target="_blank" class="btn contact-detail"><i class="uil uil-twitter"></i>Twitter</a>
+            <a href="https://github.com/joseyzambranov" target="_blank" id="profile-link" class="btn contact-detail"><i
+                    class="uil uil-github"></i>Github</a>
+            <a href="https://www.linkedin.com/in/jose-zambrano-velasquez-512146212/" class="btn contact-detail"><i
+                    class="uil uil-linkedin"></i>Linkedin</a>
+        </div>
+
+    </section>
+    <footer>
+        <p>&copy; José Zambrano. All rights reserved</p>
+    </footer>
+
 </body>
 <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
