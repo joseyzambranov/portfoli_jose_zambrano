@@ -4,7 +4,7 @@
 /*----------------------------varible----------------------------*/
 :root {
     /*----------------------------color----------------------------*/
-    --hue-color: 540;
+    --hue-color: 240;
     --first-color: hsl(var(--hue-color), 67%, 61%);
     --first-color-alt: hsl(var(--hue-color), 37%, 48%);
     --first-color-light: hsl(var(--hue-color), 30%, 61%);
